@@ -1,0 +1,67 @@
+/* Nweet */
+
+.nweetEdit .formBtn {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.nweet {
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nweetOwner {
+    background-color: lightblue;
+}
+
+.nweet h4 {
+    font-size: 14px;
+}
+
+.nweet img {
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.attachment {
+    right: -10px;
+    top: 20px;
+    width: 65px;
+    height: 65px;
+}
+
+.userPhoto {
+    left: -80px;
+    top: -6px;
+    width: 70px;
+    height: 70px;
+}
+
+.nweet__actions {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nweet__actions span {
+    cursor: pointer;
+}
+
+.nweet__actions span:first-child {
+    margin-right: 10px;
+}
+
+.nweetUserName {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
